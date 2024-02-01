@@ -1,0 +1,432 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+}
+/*------------------main header -------------------------*/
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: #1a366a;
+	padding: 20px;
+}
+.logo img{
+	width: 86px;
+	height: 28;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	flex-wrap: wrap;
+	margin: 0;
+}
+nav ul li a{
+	display: inline-block;
+	padding: 12px 16px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.6s;
+	
+}
+.rehmat .owl-prev{
+	font-size: 60px !important;
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	color: #0f5ae6 !important;
+	
+}
+.rehmat .owl-next{
+	font-size: 60px !important;
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	color: #0f5ae6 !important;
+}
+nav ul li a:hover{
+	color: #479ec1;
+	text-decoration: none;
+}
+nav ul li a > span {
+	position: relative;
+}
+nav ul li a > span::after{
+	content: '';
+	width: 00%;
+	height: 1px;
+	background: red;
+	display: inline-block;
+	transition: 0.6s;
+	position: absolute;
+	top: 22px;
+	left: 0;
+}
+nav ul li a:hover span::after{
+	width: 100%;
+}
+.nav-icon{
+	margin-right:40px ;
+	color: #fff;
+}
+.nav-icon a{
+	color: #fff;
+}
+.nav-icon span{
+	margin: 0 15px;
+}
+.icon{
+	display: none;
+}
+
+
+
+
+/*https://aht-lusion.myshopify.com/*/
+
+/*--------------section banner-------------------*/
+.banner{
+	background: url(../img/fashion-men-bg.jpg);
+	height: 500px;
+	padding: 40px 0;
+	position: relative;
+
+}
+.Big-sale{
+	border: 1px solid #fff;
+	height: 400px;
+	width: 80%;
+	margin: 0px auto;
+	padding: 44px 80px 0 80px;
+	color: #fff;
+	
+}
+.Big-sale h2{
+	font-size: 80px;
+	font-weight:600 ;
+	text-transform: uppercase;
+}
+
+.Big-sale h3{
+	font-size: 60px;
+	font-weight: 600;
+	color: #479ec1;
+	text-transform: uppercase;
+}
+.Big-sale p{
+	font-size: 20px;
+	font-weight: 500;
+	color: #707070;
+	margin: 20px 0;
+}
+.Big-sale a s{
+	color: #707070;
+}
+.Big-sale a{
+	display: inline-block;
+	background: #fff;
+	color:#479ec1 ;
+	padding: 15px 35px;
+	font-size: 20px;
+	font-weight:600 ;
+	margin-top: 18px;
+	text-decoration:none ;
+	transition: all 0.6s;
+}
+
+.Big-sale a:hover{
+	background: #479ec1;
+	color: #fff;
+}
+
+
+.men-img{
+	position: absolute;
+	bottom: -5px;
+	right: 200px;
+	width: 22.5%;
+}
+.men-img img{
+	width: 100%;
+}
+
+.pppsiton{
+	position: relative;
+}
+.owl-dots{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+
+}
+
+
+/*----------------card section--------------------*/
+.card-head{
+	text-align: center;
+	width: 100%;
+}
+.card-head h2{
+	margin-top: 40px;
+}
+.card-head ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+}
+.card-head ul a{
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: #707070;
+	font-size: 20px;
+	font-weight: 600;
+}
+.card{
+	position: relative;
+	overflow: hidden;
+	
+}
+.card-img-1{
+	cursor: pointer;
+
+}
+.card-img-1 img{
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: all 0.9s ease;
+	transform: scale(1.0);
+}
+.card-img-2 img{
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: all 0.9s ease;
+	transform: scale(1.0);
+}
+.card-img-2 {
+	position: absolute;
+	display: none;
+
+
+}
+
+.card:hover > .card-img-2{
+	display: block;
+	cursor: pointer;
+
+
+
+
+}
+.product-details a{
+	color: #707070;
+	font-size: 20px ;
+	font-weight: 500;
+	text-decoration: none;
+}
+.product-details a:hover{
+	color: blue;
+}
+.product-details p{
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: 600;
+}
+.card{
+	border: none;
+}
+.add-to-card a{
+	display: inline-block;
+	background: #2c2c2c;
+	color: #fff;
+	padding: 10px 20px;
+	transition: all 0.6s;
+}
+.add-to-card a:hover{
+	background: #479ec1;
+	color: #fff;
+}
+
+/*----------small slider------------*/
+
+
+.img-slider-sm img{
+	width: 100%;
+	height: 100%;
+}
+.marr-tt{
+	margin: 50px 0;
+}
+
+/*------------footer-------------*/
+footer{
+	background: #eee;
+	padding: 50px 0 0 0;
+}
+.new-letter{
+	text-align: center;
+	
+	
+}
+.new-letter input::placeholder{
+	padding: 7px 20px;
+	background: #eee;
+}
+.new-letter input{
+	width: 70%;
+	height: 33px;
+	border: 0;
+	outline: none;
+	/*border-bottom: solid 2px #fff;*/
+}
+.new-letter button{
+	padding: 10px 15x;
+	outline: none;
+	border: none;
+	background:#479ec1 ;
+	color: #fff;
+	display: inline-block;
+	cursor: pointer;
+	    width: 100px;
+    height: 37px;
+}
+.social-icon{
+	text-align: center;
+}
+.social-icon span{
+	display: inline-block;
+	margin: 40px 7px;
+}
+.social-icon span a{
+	color: #6d6d6d;
+	background:#fff ;
+	display: inline-block;
+	font-size: 20px;
+	width: 50px ;
+	height: 50px;
+	line-height: 50px;
+	transition: all 0.6s;
+}
+.social-icon span a:hover{
+	background: #479ec1;
+	color: #fff;
+}
+.footer-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.footer-nav ul li a{
+		padding: 15px 20px;
+		text-decoration: none;
+		color: #000;
+
+}
+.footer-nav ul li a:hover{
+	color: #479ec1;
+}
+.copyright{
+	background: #000;
+	color: #fff;
+	width: 100%;
+	height: 48px;
+	text-align: center;
+
+}
+.copyright p{
+	padding: 12px 0;
+	margin: 0;
+}
+#check{
+	display: none;
+}
+.checkbtn{
+	display: none;
+}
+/*--------------------------responsive-----------------*/
+@media(max-width: 480px){
+
+	.owl-dots {
+    position: relative;
+    left:0%;
+    bottom: 0px;
+}
+.rehmat button.owl-prev,button.owl-next {
+    
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff!important;
+    outline: none;
+    font-size: 20px!important;
+}
+.nav-icon{
+	display: none;
+}
+nav ul{
+	padding-top: 20px;
+}
+nav ul li{
+	width: 100%;
+}
+.icon{
+	display: block;
+}
+nav{
+	display: none;
+}
+.checkbtn{
+	display: block;
+	margin-right:20px ;
+}
+#check:checked ~ nav{
+	display: block;
+}
+.checkbtn i{
+	color: #fff;
+}
+.Big-sale{
+	padding: 0;
+	margin: 270px 30px 0px 30px;
+	width: 86%;
+	text-align: center;
+
+	height: 350px;
+}
+.Big-sale h2{
+	font-size: 54px;
+	margin-top: 44px;
+}
+.Big-sale h3{
+	font-size: 40px;
+}
+.Big-sale p{
+	font-size: 15px;
+	color: #fff;
+}
+.banner{
+	height: 750px;
+}
+.men-img{
+	width: 45%;
+	top: 25px;
+	right: 50%;
+	transform: translateX(50%);
+}
+}
+
+@media(max-width: 1000px){
+	.nav-icon{
+	display:none;
+	}
+}
